@@ -11,6 +11,7 @@ const ArrowContainer: React.StatelessComponent<ArrowContainerProps> = ({
     arrowStyle,
     popoverRect,
     targetRect,
+    className,
 }) => (
         <div
             style={{
@@ -22,6 +23,7 @@ const ArrowContainer: React.StatelessComponent<ArrowContainerProps> = ({
             }}
         >
             <div
+                className={className}
                 style={{
                     position: 'absolute',
                     ...((): React.CSSProperties => {
