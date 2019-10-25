@@ -55,6 +55,7 @@ export declare interface ArrowContainerProps {
     arrowSize?: number;
     arrowColor?: any;
     arrowStyle?: React.CSSProperties;
+    className?: string;
 }
 
 export declare const ArrowContainer: React.StatelessComponent<ArrowContainerProps>;
